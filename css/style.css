@@ -398,3 +398,83 @@ header.sticky{
     color: var(--text-color);
     background: var(--main-color);
 }
+
+
+.cvbutton { 
+    background-color: #ff4d05;
+    color: #ccc; 
+    padding: 1rem 3rem;
+    transition: 300ms;
+    font-weight: 900;
+}
+
+.cvbutton:hover { 
+    background-color: #b43300;
+
+}
+
+
+.education { 
+    width: 200%; 
+    
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    
+}
+
+.education .box { 
+    text-align: center;
+    border-radius: 0;
+     background-color: #424242;
+    cursor: default;
+    }
+
+
+.education .box:hover{ 
+    transform: translateX(0);
+
+}
+
+.evaluation { 
+    margin-bottom: -10rem;
+}
+
+  
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-rating {
+    color: #f39c12; /* Star color */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .testimonial-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #a09f9f;
+  }
+  
